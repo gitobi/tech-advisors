@@ -1,0 +1,7 @@
+node_modules
+typings
+dist
+.tmp
+.sass-cache
+bower_components
+credentials.json

@@ -1,0 +1,24 @@
+{
+  "name": "tech-advisors",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.ts",
+  "dependencies": {
+    "typescript-require": "^0.2.8",
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitobi/tech-advisors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitobi/tech-advisors/issues"
+  },
+  "homepage": "https://github.com/gitobi/tech-advisors"
+}
