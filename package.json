@@ -7,7 +7,9 @@
     "typescript-require": "^0.2.8",
     "gulp": "^3.8.11"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.7.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
