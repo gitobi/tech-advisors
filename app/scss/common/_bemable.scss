@@ -1,0 +1,18 @@
+$element-separator: '__';
+$modifier-separator: '--';
+
+@mixin block($block) {
+   .#{$block} {
+       @content;
+   }
+}
+@mixin element($element) {
+    @at-root &#{$element-separator+$element} {
+        @content;
+    }
+}
+@mixin modifier($modifier) {
+    @at-root &#{$modifier-separator+$modifier} {
+        @content;
+    }
+}

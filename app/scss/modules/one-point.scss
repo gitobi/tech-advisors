@@ -1,0 +1,25 @@
+@include block('one-point') {
+    font-size: 0.9em;
+    background-color: #ccc;
+    padding: 1em;
+    @include element('lead') {
+        font-size: 1.1em;
+    }
+    @include element('question') {
+        &:first-letter {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: blue;
+        }
+    }
+    @include element('answer') {
+        margin-left: 0;
+        padding-left: 1.2em;
+        text-indent: -1.2em;
+        &:first-letter {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: red;
+        }
+    }
+}

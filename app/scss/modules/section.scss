@@ -1,0 +1,19 @@
+@include block('section') {
+    @include outer-container;
+    @include element('header') {
+        text-align: center;
+        margin-top: 3em;
+    }
+    @include element('header2') {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 1.4em;
+        border-bottom: 1px #ccc solid;
+        @include modifier('with-symbol') {
+            padding-left: 1.4em;
+        }
+    }
+    @include element('image') {
+        width: 100%;
+    }
+}
