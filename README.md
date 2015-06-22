@@ -10,6 +10,7 @@
 - gulp
 - typescript
 - tsd
+- bower
 
 ## Setup
 
@@ -18,4 +19,5 @@ git clone https://github.com/gitobi/tech-advisors.git
 cd tech-advisors
 npm install
 tsd reinstall --save --overwrite
+bower install
 ```

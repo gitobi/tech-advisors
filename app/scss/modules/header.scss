@@ -1,0 +1,13 @@
+@include block('header') {
+    @include outer-container;
+    @include element('title') {
+        text-align: center;
+        font-size: 2.8em;
+        margin: 0;
+        background-color: rgba(#FFF, 0.8);
+    }
+    @include element('image') {
+        position: relative;
+        width: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+@include block('header-symbol') {
+    position: relative;
+    @include element('check-mark') {
+        position: absolute;
+        top: 0.3em;
+        left: 0.3em;
+        width: 0.8em;
+        height: 0.5em;
+        border-left: 4px solid #3498db;
+        border-bottom: 4px solid #3498db;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+}

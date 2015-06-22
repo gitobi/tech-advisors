@@ -1,0 +1,8 @@
+@include block('plans') {
+    @include element('lead') {
+        text-align: center;
+    }
+    @include element('annotation') {
+        font-size: 0.8em;
+    }
+}

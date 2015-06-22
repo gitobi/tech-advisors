@@ -1,0 +1,20 @@
+@include block('balloon') {
+    background-color: rgba(#ccc, 1);
+    border-radius: 50%;
+    padding: 1.5em;
+    position: relative;
+    text-align: center;
+    @include element('content') {
+    }
+    @include element('triangle') {
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        margin-left: -10px;
+        width: 0;
+        height: 0;
+        border-top: 12px solid rgba(#ccc, 1);
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+    }
+}

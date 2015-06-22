@@ -1,0 +1,13 @@
+@include block('footer') {
+    text-align: center;
+    background-color: #ccc;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    @include element('menu') {
+        padding: 0;
+        list-style: none;
+    }
+    @include element('copyright') {
+        font-size: 0.8em;
+    }
+}

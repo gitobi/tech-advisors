@@ -1,0 +1,13 @@
+@include block('issue-menu') {
+    text-decoration: none;
+    padding: 0;
+    margin-bottom: 2em;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    @include element('option') {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
+}

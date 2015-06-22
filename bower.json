@@ -1,0 +1,23 @@
+{
+  "name": "tech-advisors",
+  "version": "0.0.0",
+  "homepage": "https://github.com/gitobi/tech-advisors",
+  "authors": [
+    "Rui Onodera <deraru@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.7.2",
+    "modularized-normalize-scss": "~3.0.3"
+  }
+}
